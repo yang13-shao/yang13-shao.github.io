@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">archive_a: 2021/9 | yanghexo</title>
+  <title itemprop="name">yanghexo</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -392,78 +392,170 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 75px;">
-</div>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
 <div id="content" class="site-content">
-  <div id="main">
-    <header class="page-header">
-      <h1 class="cat-title">
-      归档</h1>
-      <span class="cat-des">
-        <p>
-        Archives</p>
-      </span>
-    </header>
-    <div id="main-part">
-      <article class="art">
-        <div class="art-main">
-          <div class="art-content">
-            <div id="archives">
-              <p style="text-align:right;">
-                [<span id="al_expand_collapse" style="cursor: s-resize;">
-                全部展开/收缩</span>
-              ]</p>
-              
-              
-              
-              
-              
-                
-                <h3 class="al_year">2021年</h3>
-              
-              
-                
-                <ul class="al_mon_list">
-                  <li class="al_li">
-                    <span class="al_mon" style="cursor: s-resize;">
-                      09月(<span id="post-num">
-                      3</span>
-                    篇文章)</span>
-                    <ul class="al_post_list" style="">
-              
-                      <li>
-                        <a href="/2021/09/19/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90/">
-                          <span style="color:#0bf;">
-                          19日22:39:28</span>
-                          
-                        </a>
-                      </li>
-                      
-              
-              
-              
-              
-              
-                      <li>
-                        <a href="/2021/09/19/hello-world/">
-                          <span style="color:#0bf;">
-                          19日18:19:07</span>
-                          Hello World
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                </ul>
-              
-              
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title"></h1>
+            <p class="entry-census">&nbsp;·&nbsp;2021-9-19&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <p>#开关电源</p>
+<h2 id="开关电源电路各种损耗的分析，简单实用！"><a href="#开关电源电路各种损耗的分析，简单实用！" class="headerlink" title="开关电源电路各种损耗的分析，简单实用！"></a>开关电源电路各种损耗的分析，简单实用！</h2><p><a href="javascript:void(0);">电子工程师笔记</a> <em>今天</em><br><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/o1bH3qDqyWdRfTDjPvSxcw">https://mp.weixin.qq.com/s/o1bH3qDqyWdRfTDjPvSxcw</a></p>
+<p>扫码关注“<strong>电子工程师笔记</strong>”，公众号</p>
+<p>干货福利，第一时间送达！</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1" alt="图片"></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icLux8Wz5yxJYzTVTdn9GiaoLJyAyT75ammt7XgFvYqEF3eEhibKic20EicVDOXpaDZDstADBOGJhiaZEIw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>01</p>
+<p>输入部分损耗</p>
+<p><strong>1、脉冲电流造成的共模电感T的内阻损耗加大</strong></p>
+<p>适当设计共模电感，包括线径和匝数</p>
+<p><strong>2、放电电阻上的损耗</strong></p>
+<p>在符合安规的前提下加大放电电阻的组织</p>
+<p><strong>3、热敏电阻上的损耗</strong></p>
+<p>在符合其他指标的前提下减小热敏电阻的阻值</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0ADBzECribGiajfY5uprjIqYBDpfQus6kic1Jp5iaZSicAgcic6pSCcVUDFrFA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>02</p>
+<p>启动损耗</p>
+<p>普通的启动方法，开关电源启动后启动电阻回路未切断，此损耗持续存在。</p>
+<p>改善方法：恒流启动方式启动，启动完成后关闭启动电路降低损耗。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AAOSMIiajy5ynBbwRMLbE1eFuTNRMeCXXXmuIUL2wkicUz3TobgErDf0Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>03</p>
+<p>与开关电源工作相关的损耗</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0A4OLm1a93XyMgUTWyEzP7XhtMaiad6MgYmfMc7vFyJCic3QhlO9SzKksw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>04</p>
+<p>钳位电路损耗</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0Aqp5pEdQnk3b0DBuicsZRjuRiaAic2hM7eUUYuVKbr70htq9PRoic5sOJdw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>有放电电阻存在，mos开关管每次开关都会产生放电损耗</p>
+<p>改善方法：用TVS钳位如下图，可免除电阻放电损耗（注意：此处只能降低电阻放电损耗，漏感能量引起的尖峰损耗是不能避免的）</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AibJF683AUtGF9X1qQbqcw8rbyZicCBjqokia6F9Zuic6lpxIE3OL9WKqWg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0Addrs0PraZEzDqbTEJGGnPc0YqTIQjP0GxKIYXtIYW8qH0JRFbYJ6Ng/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>当然最根本的改善办法是，降低变压器漏感。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0Ak65dbB9ex0uhy5I71PHp9uvMQubtZXfXaX5AxJk1TxBicXIWL1rXOZQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>05</p>
+<p>供电绕组的损耗</p>
+<p>电源芯片是需要一定的电流和电压进行工作的，如果Vcc供电电压越高损耗越大。</p>
+<p>改善方法：由于IC内部消耗的电流是不变的，在保证芯片能在安全工作电压区间的前提下尽量降低Vcc供电电压！</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AErnkBb3zWKwNhg6JbQ4aGedqkmkficeky5Ge9sMorJyASw5mq1agFjw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>06</p>
+<p>变压器的损耗</p>
+<p>由于待机时有效工作频率很低，并且一般限流点很小，磁通变化小，磁芯损耗很小，对待机影响不大，但绕组损耗是不可忽略的。</p>
+<p>07</p>
+<p>变压器绕组引起的损耗</p>
+<p>绕组的层与层之间的分布电容的充放电损耗(分布电容在开关MOS管关断时充电，在开关MOS管开通时放电引起的损耗。）</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AFicILXutbKcb7mPZQMAxL4yMMdrk88HqLC6icOtTQ78EWA47v1XaDczQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>当测试mos管电流波形时，刚开启的时候有个电流尖峰主要由变压器分布电容引起。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AMPgRlwfs3OHhB8TubRFqer6lTslRCn4V7qazP2uEGRktaRflv4N4Ig/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>改善方法:在绕组层与层之间加绝缘胶带，来减少层间分布电容。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0A7Rtad5AP44QQCHYJyT7zOobnCsPfyspOrY3YcMRCnRRas4nsDQfcXg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>08</p>
+<p>开关管MOSFET上的损耗</p>
+<p>mos损耗包括：导通损耗，开关损耗，驱动损耗。其中在待机状态下最大的损耗就是开关损耗。</p>
+<p>改善办法：降低开关频率、使用变频芯片甚至跳频芯片（在空载或很轻负载的情况下芯片进入间歇式振荡）</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AeBWc839hjUEwW8EC8YKEPibZYIa7tibg3Ux1XaZbw57sNxEEzMvACyjw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>09</p>
+<p>整流管上的吸收损耗</p>
+<p>输出整流管上的结电容与整流管的吸收电容在开关状态下引起的尖峰电流反射到原边回路上，引起的开关损耗。另外还有吸收电路上的电阻充放电引起的损耗。</p>
+<p>改善方法：在其他指标允许的前提下尽量降低吸收电容的容值，降低吸收电阻的阻值。</p>
+<p>当然还有整流管上的开关损耗、导通损耗和反向恢复损耗，这应该在允许的情况下尽量选择导通压降低和反向恢复时间短的二极管。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AKZM2bMV34ebYhY1Bfcvlg9mMbtgZEvmuZXqFmlY5USZLysOLx5nonw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AibtIicEJ6LUTRJK2rhbWru2VgeR5zQ3XGu9keFT0HfPE5mvmr93MNyPg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p>10</p>
+<p>输出反馈电路的损耗</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmfKbIzkYAjwHtqISo3ASe0AF2ialMibibhLjZQ4uHibwfHpgAnvo0r4GpAWvYOTURicaiaQT4x1Mgq03lPA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p><strong>— END —</strong></p>
+<p>免责声明：文章整理自网络，版权归原作者所有，如涉及作品版权问题，请及时与我们联系删除，谢谢！</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
             </div>
           </div>
         </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
       </article>
-    </div>
-  </div>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2021/09/19/hello-world/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                Hello World</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz",
+        appKey: "mgOpfzbkHYqU92CV4IDlAUHQ",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author"></a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
 
     </div>    
     <div class="ins-search">
