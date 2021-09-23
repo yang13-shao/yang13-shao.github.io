@@ -25,6 +25,18 @@
         <updated>2021-09-21T14:36:01.000Z</updated>
     </entry>
     <entry>
+        <id>https://yang13-shao.github.io/wen/%E5%8D%9A%E5%AE%A2MD%E7%9A%84%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/</id>
+        <title>博客的MD文档的格式</title>
+        <link rel="alternate" href="https://yang13-shao.github.io/wen/%E5%8D%9A%E5%AE%A2MD%E7%9A%84%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/"/>
+        <content type="html">&lt;p&gt;博客的 MD 文档的使用注意&lt;/p&gt;
+&lt;p&gt;”#“要用英文格式&lt;/p&gt;
+&lt;p&gt;搜索功能起作用：&lt;/p&gt;
+</content>
+        <category term="教程" scheme="https://yang13-shao.github.io/categories/%E6%95%99%E7%A8%8B/" />
+        <category term="教程" scheme="https://yang13-shao.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <updated>2021-09-21T14:16:01.000Z</updated>
+    </entry>
+    <entry>
         <id>https://yang13-shao.github.io/computer-science/technology/technology/</id>
         <title>technology</title>
         <link rel="alternate" href="https://yang13-shao.github.io/computer-science/technology/technology/"/>
@@ -34,18 +46,6 @@
         <category term="计算机科学" scheme="https://yang13-shao.github.io/categories/computer-science/" />
         <category term="技术" scheme="https://yang13-shao.github.io/categories/computer-science/technology/" />
         <category term="technology" scheme="https://yang13-shao.github.io/categories/computer-science/technology/technology/" />
-        <category term="教程" scheme="https://yang13-shao.github.io/tags/%E6%95%99%E7%A8%8B/" />
-        <updated>2021-09-21T14:16:01.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://yang13-shao.github.io/wen/%E5%8D%9A%E5%AE%A2MD%E7%9A%84%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/</id>
-        <title>博客的MD文档的格式</title>
-        <link rel="alternate" href="https://yang13-shao.github.io/wen/%E5%8D%9A%E5%AE%A2MD%E7%9A%84%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/"/>
-        <content type="html">&lt;p&gt;博客的 MD 文档的使用注意&lt;/p&gt;
-&lt;p&gt;”#“要用英文格式&lt;/p&gt;
-&lt;p&gt;搜索功能起作用：&lt;/p&gt;
-</content>
-        <category term="教程" scheme="https://yang13-shao.github.io/categories/%E6%95%99%E7%A8%8B/" />
         <category term="教程" scheme="https://yang13-shao.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2021-09-21T14:16:01.000Z</updated>
     </entry>
